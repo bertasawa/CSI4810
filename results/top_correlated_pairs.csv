@@ -1,0 +1,11 @@
+feature_a,feature_b,r
+word_freq_857,word_freq_415,0.995
+word_freq_857,word_freq_direct,0.824
+word_freq_415,word_freq_direct,0.821
+word_freq_telnet,word_freq_857,0.682
+word_freq_telnet,word_freq_415,0.679
+word_freq_857,word_freq_technology,0.672
+word_freq_415,word_freq_technology,0.669
+word_freq_telnet,word_freq_direct,0.641
+word_freq_telnet,word_freq_technology,0.621
+word_freq_technology,word_freq_direct,0.621
