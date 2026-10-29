@@ -1,0 +1,17 @@
+model,policy,hypothetical_fp_cost,fn_cost,total_cost
+RF,default,1,1,48
+RF,default,2,1,69
+RF,default,5,1,132
+RF,default,10,1,237
+RF,conservative,1,1,58
+RF,conservative,2,1,60
+RF,conservative,5,1,66
+RF,conservative,10,1,76
+KNN,default,1,1,70
+KNN,default,2,1,81
+KNN,default,5,1,114
+KNN,default,10,1,169
+KNN,conservative,1,1,91
+KNN,conservative,2,1,96
+KNN,conservative,5,1,111
+KNN,conservative,10,1,136
