@@ -1,0 +1,5 @@
+,Logistic Regression,Decision Tree,Random Forest,KNN
+recall on spam with 4 or fewer tracked words,0.7321428571428571,0.7142857142857143,0.75,0.5892857142857143
+recall on spam with more than 4,0.9392857142857143,0.9071428571428571,0.9535714285714286,0.8714285714285714
+median tracked words in missed spam,6.5,7.0,4.0,5.0
+median tracked words in real email,6.0,6.0,6.0,6.0
