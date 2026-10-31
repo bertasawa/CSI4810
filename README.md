@@ -8,14 +8,15 @@ Python 3.12 works. Run these from the repo root.
 
 ```bash
 python -m venv .venv
-.venv\Scripts\activate          # Windows
-source .venv/bin/activate       # macOS or Linux
+.venv\Scripts\activate          # Windows CMD
+.venv\Scripts\Activate.ps1      # Windows PowerShell
+source .venv/bin/activate       # macOS/Linux
 pip install -r requirements.txt
 ```
 
 ## Run order
 
-Open the notebooks from the `notebooks/` folder and run each one top to bottom, in this order. Every part writes its tables to `results/` and its figures to `figures/`.
+Open the notebooks from the `notebooks/` folder and run each one top to bottom, in this order. Each part saves its tables to results/part1 through results/part4 and its figures to figures/part1 through figures/part4.
 
 | Part | Notebook | What it covers |
 |---|---|---|

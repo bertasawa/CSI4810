@@ -2,7 +2,7 @@
 
 Random Forest
 Chosen parameters: {'max_depth': None, 'max_features': 'sqrt', 'min_samples_leaf': 1, 'n_estimators': 200}
-Mean outer-fold AP: 0.9762 before tuning and 0.9767 after tuning (change +0.0005).
+Mean outer-fold AP: 0.9763 before tuning and 0.9767 after tuning (change +0.0004).
 Test at 0.5: accuracy 0.9430, precision 0.9364, recall 0.9196, F1 0.9279, AP 0.9841, ROC-AUC 0.9897.
 Conservative threshold 0.735000: FP/FN changed from 21/27 to 2/56.
 Conservative test precision 0.9929; recall 0.8333.
@@ -16,7 +16,7 @@ Conservative threshold 0.633226: FP/FN changed from 11/59 to 5/86.
 Conservative test precision 0.9804; recall 0.7440.
 98% precision target met on test: True.
 
-Scaling changed default KNN mean CV AP by +0.1580.
+Scaling changed default KNN mean CV AP by +0.1573.
 
 These results describe this dataset and split. Fold variation is not a significance test. A better AP does not guarantee a better F1 or recall at 0.5. Compare all metrics in the test table.
 
