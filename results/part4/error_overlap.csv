@@ -1,0 +1,16 @@
+wrong for,real email flagged (FP),spam missed (FN)
+nobody,457,255
+DT,17,10
+KNN,1,24
+LR + DT + RF + KNN,6,14
+LR + KNN,2,7
+LR,5,4
+DT + RF,5,2
+DT + KNN,0,6
+LR + DT + RF,4,2
+RF,3,2
+DT + RF + KNN,0,5
+LR + DT,3,1
+LR + RF + KNN,2,1
+LR + DT + KNN,0,2
+LR + RF,1,1
