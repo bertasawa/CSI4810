@@ -1,0 +1,7 @@
+,# columns,meaning,units / range
+word_freq_*,48,% of words in the e-mail equal to WORD: 100·count(WORD) / total words,"percent, [0, 100]"
+char_freq_*,6,% of characters equal to CHAR (; ( [ ! $ #): 100·count(CHAR) / total chars,"percent, [0, 100]"
+capital_run_length_average,1,Average length of uninterrupted runs of capital letters,"characters, ≥ 1"
+capital_run_length_longest,1,Length of the longest run of capital letters,"characters, ≥ 1 (integer)"
+capital_run_length_total,1,Total number of capital letters in the e-mail,"characters, ≥ 1 (integer)"
+spam,1,"1 = spam (unsolicited commercial e-mail), 0 = non-spam","binary {0, 1}"
